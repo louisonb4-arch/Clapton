@@ -5,3 +5,4 @@ node_modules
 _source/maps/
 _source/tools/node_modules/
 _source/thumbs/
+.env*
