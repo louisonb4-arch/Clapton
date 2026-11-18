@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://clapton-nantes.vercel.app/sitemap.xml
+Sitemap: https://clapton-chi.vercel.app/sitemap.xml
