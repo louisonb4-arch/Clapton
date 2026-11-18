@@ -1,0 +1,7 @@
+.vercel
+.DS_Store
+.env*.local
+node_modules
+_source/maps/
+_source/tools/node_modules/
+_source/thumbs/
