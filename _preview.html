@@ -1,3 +1,14 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><title>Aperçu mobile</title>
-<style>body{margin:0;background:#2b2b2b;display:flex;justify-content:center;align-items:flex-start;padding:12px;gap:24px}iframe{width:390px;height:750px;border:0;border-radius:24px;background:#fff}</style></head>
-<body><iframe id="m" src="index.html"></iframe></body></html>
+<style>body{margin:0;background:#2b2b2b;display:flex;justify-content:center;align-items:flex-start;padding:12px;gap:20px;font:12px system-ui;color:#aaa}
+.d{display:flex;flex-direction:column;gap:6px;align-items:center}
+.w{overflow:hidden;border-radius:22px}
+iframe{border:0;background:#fff;transform-origin:0 0}
+#a{width:390px;height:844px;transform:scale(.8)}#aw{width:312px;height:675px}
+#b{width:375px;height:667px;transform:scale(.8)}#bw{width:300px;height:534px}
+#c{width:430px;height:932px;transform:scale(.72)}#cw{width:310px;height:671px}
+</style></head>
+<body>
+<div class="d"><span>iPhone 14 · 390×844</span><div class="w" id="aw"><iframe id="a" src="index.html"></iframe></div></div>
+<div class="d"><span>iPhone SE · 375×667</span><div class="w" id="bw"><iframe id="b" src="index.html"></iframe></div></div>
+<div class="d"><span>iPhone Pro Max · 430×932</span><div class="w" id="cw"><iframe id="c" src="index.html"></iframe></div></div>
+</body></html>
